@@ -83,6 +83,18 @@ public class CacheConfiguration {
             createCache(cm, com.picore.app.domain.User.class.getName(), jcacheConfiguration);
             createCache(cm, com.picore.app.domain.Authority.class.getName(), jcacheConfiguration);
             createCache(cm, com.picore.app.domain.User.class.getName() + ".authorities", jcacheConfiguration);
+            createCache(cm, com.picore.app.domain.Region.class.getName(), jcacheConfiguration);
+            createCache(cm, com.picore.app.domain.Country.class.getName(), jcacheConfiguration);
+            createCache(cm, com.picore.app.domain.Location.class.getName(), jcacheConfiguration);
+            createCache(cm, com.picore.app.domain.Department.class.getName(), jcacheConfiguration);
+            createCache(cm, com.picore.app.domain.Department.class.getName() + ".employees", jcacheConfiguration);
+            createCache(cm, com.picore.app.domain.Task.class.getName(), jcacheConfiguration);
+            createCache(cm, com.picore.app.domain.Task.class.getName() + ".jobs", jcacheConfiguration);
+            createCache(cm, com.picore.app.domain.Employee.class.getName(), jcacheConfiguration);
+            createCache(cm, com.picore.app.domain.Employee.class.getName() + ".jobs", jcacheConfiguration);
+            createCache(cm, com.picore.app.domain.Job.class.getName(), jcacheConfiguration);
+            createCache(cm, com.picore.app.domain.Job.class.getName() + ".tasks", jcacheConfiguration);
+            createCache(cm, com.picore.app.domain.JobHistory.class.getName(), jcacheConfiguration);
             // jhipster-needle-redis-add-entry
         };
     }
