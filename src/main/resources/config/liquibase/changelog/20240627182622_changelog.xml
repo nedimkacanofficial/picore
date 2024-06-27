@@ -1,0 +1,183 @@
+<?xml version="1.1" encoding="UTF-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog" xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext" xmlns:pro="http://www.liquibase.org/xml/ns/pro" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd http://www.liquibase.org/xml/ns/pro http://www.liquibase.org/xml/ns/pro/liquibase-pro-latest.xsd http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd">
+    <changeSet author="MSI (generated)" id="1719512788356-5">
+        <addColumn tableName="country">
+            <column name="created_by" type="varchar(50)" defaultValue="system">
+            </column>
+        </addColumn>
+    </changeSet>
+    <changeSet author="MSI (generated)" id="1719512788356-6">
+        <addColumn tableName="department">
+            <column name="created_by" type="varchar(50)" defaultValue="system">
+            </column>
+        </addColumn>
+    </changeSet>
+    <changeSet author="MSI (generated)" id="1719512788356-7">
+        <addColumn tableName="employee">
+            <column name="created_by" type="varchar(50)" defaultValue="system">
+            </column>
+        </addColumn>
+    </changeSet>
+    <changeSet author="MSI (generated)" id="1719512788356-8">
+        <addColumn tableName="job">
+            <column name="created_by" type="varchar(50)" defaultValue="system">
+            </column>
+        </addColumn>
+    </changeSet>
+    <changeSet author="MSI (generated)" id="1719512788356-9">
+        <addColumn tableName="job_history">
+            <column name="created_by" type="varchar(50)" defaultValue="system">
+            </column>
+        </addColumn>
+    </changeSet>
+    <changeSet author="MSI (generated)" id="1719512788356-10">
+        <addColumn tableName="location">
+            <column name="created_by" type="varchar(50)" defaultValue="system">
+            </column>
+        </addColumn>
+    </changeSet>
+    <changeSet author="MSI (generated)" id="1719512788356-11">
+        <addColumn tableName="region">
+            <column name="created_by" type="varchar(50)" defaultValue="system">
+            </column>
+        </addColumn>
+    </changeSet>
+    <changeSet author="MSI (generated)" id="1719512788356-12">
+        <addColumn tableName="task">
+            <column name="created_by" type="varchar(50)" defaultValue="system">
+            </column>
+        </addColumn>
+    </changeSet>
+    <changeSet author="MSI (generated)" id="1719512788356-13">
+        <addColumn tableName="country">
+            <column name="created_date" type="timestamp(6)"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="MSI (generated)" id="1719512788356-14">
+        <addColumn tableName="department">
+            <column name="created_date" type="timestamp(6)"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="MSI (generated)" id="1719512788356-15">
+        <addColumn tableName="employee">
+            <column name="created_date" type="timestamp(6)"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="MSI (generated)" id="1719512788356-16">
+        <addColumn tableName="job">
+            <column name="created_date" type="timestamp(6)"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="MSI (generated)" id="1719512788356-17">
+        <addColumn tableName="job_history">
+            <column name="created_date" type="timestamp(6)"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="MSI (generated)" id="1719512788356-18">
+        <addColumn tableName="location">
+            <column name="created_date" type="timestamp(6)"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="MSI (generated)" id="1719512788356-19">
+        <addColumn tableName="region">
+            <column name="created_date" type="timestamp(6)"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="MSI (generated)" id="1719512788356-20">
+        <addColumn tableName="task">
+            <column name="created_date" type="timestamp(6)"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="MSI (generated)" id="1719512788356-21">
+        <addColumn tableName="country">
+            <column name="last_modified_by" type="varchar(50)"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="MSI (generated)" id="1719512788356-22">
+        <addColumn tableName="department">
+            <column name="last_modified_by" type="varchar(50)"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="MSI (generated)" id="1719512788356-23">
+        <addColumn tableName="employee">
+            <column name="last_modified_by" type="varchar(50)"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="MSI (generated)" id="1719512788356-24">
+        <addColumn tableName="job">
+            <column name="last_modified_by" type="varchar(50)"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="MSI (generated)" id="1719512788356-25">
+        <addColumn tableName="job_history">
+            <column name="last_modified_by" type="varchar(50)"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="MSI (generated)" id="1719512788356-26">
+        <addColumn tableName="location">
+            <column name="last_modified_by" type="varchar(50)"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="MSI (generated)" id="1719512788356-27">
+        <addColumn tableName="region">
+            <column name="last_modified_by" type="varchar(50)"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="MSI (generated)" id="1719512788356-28">
+        <addColumn tableName="task">
+            <column name="last_modified_by" type="varchar(50)"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="MSI (generated)" id="1719512788356-29">
+        <addColumn tableName="country">
+            <column name="last_modified_date" type="timestamp(6)"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="MSI (generated)" id="1719512788356-30">
+        <addColumn tableName="department">
+            <column name="last_modified_date" type="timestamp(6)"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="MSI (generated)" id="1719512788356-31">
+        <addColumn tableName="employee">
+            <column name="last_modified_date" type="timestamp(6)"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="MSI (generated)" id="1719512788356-32">
+        <addColumn tableName="job">
+            <column name="last_modified_date" type="timestamp(6)"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="MSI (generated)" id="1719512788356-33">
+        <addColumn tableName="job_history">
+            <column name="last_modified_date" type="timestamp(6)"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="MSI (generated)" id="1719512788356-34">
+        <addColumn tableName="location">
+            <column name="last_modified_date" type="timestamp(6)"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="MSI (generated)" id="1719512788356-35">
+        <addColumn tableName="region">
+            <column name="last_modified_date" type="timestamp(6)"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="MSI (generated)" id="1719512788356-36">
+        <addColumn tableName="task">
+            <column name="last_modified_date" type="timestamp(6)"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="MSI (generated)" id="1719512788356-1">
+        <setTableRemarks tableName="employee"/>
+    </changeSet>
+    <changeSet author="MSI (generated)" id="1719512788356-2">
+        <setTableRemarks tableName="location"/>
+    </changeSet>
+    <changeSet author="MSI (generated)" id="1719512788356-3">
+        <setTableRemarks tableName="task"/>
+    </changeSet>
+    <changeSet author="MSI (generated)" id="1719512788356-4">
+        <modifyDataType columnName="email" newDataType="varchar(254)" tableName="jhi_user"/>
+    </changeSet>
+</databaseChangeLog>
