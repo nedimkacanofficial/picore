@@ -1,0 +1,3 @@
+org.springframework.test.context.ContextCustomizerFactory = com.picore.app.\
+    config.SqlTestContainersSpringContextCustomizerFactory,com.picore.app.\
+    config.RedisTestContainersSpringContextCustomizerFactory
