@@ -14,9 +14,19 @@
     <!-- The FILE and ASYNC appenders are here as examples for a production configuration -->
     <include resource="org/springframework/boot/logging/logback/file-appender.xml" />
 
-    <appender name="ASYNC" class="ch.qos.logback.classic.AsyncAppender">
-        <queueSize>512</queueSize>
-        <appender-ref ref="FILE"/>
+    <appender name="FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>./logs/picore.log</file>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <!-- Daily log file name and directory -->
+            <fileNamePattern>./logs/picore-%d{yyyy-MM-dd}.%i.log</fileNamePattern>
+            <!-- Maximum file size and backup file retention settings -->
+            <maxFileSize>10MB</maxFileSize>
+            <maxHistory>30</maxHistory>
+            <totalSizeCap>1GB</totalSizeCap>
+        </rollingPolicy>
+        <encoder>
+            <pattern>${FILE_LOG_PATTERN}</pattern>
+        </encoder>
     </appender>
 
     <root level="${logging.level.root}">
